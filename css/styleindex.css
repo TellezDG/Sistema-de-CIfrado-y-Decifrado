@@ -1,0 +1,51 @@
+body{
+  background-image: url(../imagenes/f2.jpg);
+}
+h1{
+  font-family: sis;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin: 0;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 0 0 5px #191E4D, 0 0 15px #193C62, 0 0 30px #101339;
+  margin-bottom: 10px;
+
+}
+@font-face{
+  font-family: sis;
+  src:url(../fonts/TheBookStore.otf);
+}
+#caja{
+  background:transparent;
+  box-shadow: 0px 0px 8px #060334;
+  color: white;
+}
+#cajacifrada{
+  background: transparent;
+  color:white;
+  box-shadow: 0px 0px 10px #060334;
+
+}
+
+#cifrado{
+  background: #191919;
+  color: white;
+  width: 80px;
+  height: 30px;
+  border-radius: 10%;
+}
+#decifrarr{
+  background: #191919;
+  color: white;
+  width: 80px;
+  height:30px;
+  border-radius: 10%; 
+}
+.linea{
+  display: flex;
+ justify-content: space-around;
+ 
+ 
+}
